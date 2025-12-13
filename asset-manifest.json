@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weatherapp/static/css/main.f855e6bc.css",
-    "main.js": "/weatherapp/static/js/main.c8e24549.js",
+    "main.js": "/weatherapp/static/js/main.f918f42f.js",
     "static/js/453.5c99f4cf.chunk.js": "/weatherapp/static/js/453.5c99f4cf.chunk.js",
     "static/media/highland_forest.jpg": "/weatherapp/static/media/highland_forest.8d3602cfbbd9587aba2e.jpg",
     "static/media/lonely_mountain.jpg": "/weatherapp/static/media/lonely_mountain.4715cd14e9acbc362595.jpg",
@@ -10,11 +10,11 @@
     "static/media/sunrise_forest.jpg": "/weatherapp/static/media/sunrise_forest.19d5475c0a024a132f19.jpg",
     "index.html": "/weatherapp/index.html",
     "main.f855e6bc.css.map": "/weatherapp/static/css/main.f855e6bc.css.map",
-    "main.c8e24549.js.map": "/weatherapp/static/js/main.c8e24549.js.map",
+    "main.f918f42f.js.map": "/weatherapp/static/js/main.f918f42f.js.map",
     "453.5c99f4cf.chunk.js.map": "/weatherapp/static/js/453.5c99f4cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.c8e24549.js"
+    "static/js/main.f918f42f.js"
   ]
 }
