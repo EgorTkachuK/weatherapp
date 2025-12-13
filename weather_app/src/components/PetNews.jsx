@@ -10,7 +10,7 @@ const NEWS_PAGE_SIZE = 20;
 const newsAxios = axios.create({
   baseURL: "https://newsapi.org/v2",
   timeout: 10000,
-  params: { apiKey: NEWS_API_KEY },
+  headers: { "X-Api-Key": NEWS_API_KEY },
 });
 
 const pixabayAxios = axios.create({
@@ -18,6 +18,7 @@ const pixabayAxios = axios.create({
   timeout: 10000,
   params: { key: PIXABAY_API_KEY },
 });
+
 
 const PET_KEYWORDS = [
   "pet",
@@ -216,7 +217,7 @@ export default function PetNews() {
 
         while (batch.length < 4) {
           batch.push({
-            title: "More pet stories coming soon",
+            title: "failed to load",
             url: "https://newsapi.org/",
             source: "News",
             publishedAt: new Date().toISOString(),
