@@ -10,7 +10,7 @@ const NEWS_PAGE_SIZE = 20;
 const newsAxios = axios.create({
   baseURL: "https://newsapi.org/v2",
   timeout: 10000,
-  headers: { "X-Api-Key": NEWS_API_KEY },
+  params: { apiKey: NEWS_API_KEY },
 });
 
 const pixabayAxios = axios.create({
