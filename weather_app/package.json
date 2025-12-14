@@ -10,7 +10,10 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.13.2",
     "chart.js": "^4.5.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
     "keen-slider": "^6.8.6",
+    "node-fetch": "^2.7.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "^18.2.0",
@@ -25,7 +28,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start:proxy": "node news-proxy/server.js",
+    "start:all": "concurrently \"npm run start:proxy\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "gh-pages": "^6.3.0"
   }
 }
